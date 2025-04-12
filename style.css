@@ -369,46 +369,6 @@ footer .bottom-menu ul a {
     text-align: right;
 }
 
-.video-mask-section {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-  }
-  
-  .bg-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .text-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: black;
-    color: var(--accent);
-    font-size: 3vw;
-    width: 100%;
-    height: 100%;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px 0;
-    line-height: 1.5;
-    mix-blend-mode: multiply;
-    animation: fadeIn 1s ease-in;
-  }
-
-  .text-overlay span {
-    display: inline-block;
-    background-color: var(--accent);;
-    width: 10vw;
-    height: 25px;
-    opacity: 1;
-    z-index: 0;
-  }
-
 .burger-toggle {
     display: none;
     font-size: 28px;
@@ -428,18 +388,6 @@ footer .bottom-menu ul a {
 
     .welcome-img {
         display: none;
-    }
-
-    .video-mask-section {
-        height: 300px;
-    }
-
-    .text-overlay {
-        padding: 70px 0 0 0;
-    }
-
-    .text-overlay .hole-space {
-        height: 15px;
     }
 
     #about .side-img {
@@ -522,10 +470,6 @@ footer .bottom-menu ul a {
 }
 
 @media (max-width: 540px) {
-
-    .video-mask-section {
-        height: 230px;
-    }
 
     .logo {
         animation: slideInLeft 1s ease-in-out;
@@ -664,14 +608,6 @@ footer .bottom-menu ul a {
 
     .user-data form {
         width: 100%;
-    }
-
-    .text-overlay {
-        font-size: 20px;
-    }
-
-    .text-overlay .hole-space {
-        height: 12px;
     }
 
     .about-content .order-btn {
