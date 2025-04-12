@@ -226,6 +226,7 @@ img {
     border-radius: 10px;
     margin: 0 auto;
     display: flex;
+    gap: 40px;
     justify-content: space-between;
     align-items: center;
     height: 400px;
@@ -237,13 +238,13 @@ img {
     right: -60px;
     top: 10px;
     border-radius: 10px;
-    width: 650px;
+    width: 600px;
     height: 400px;
 }
 
 .front-img {
     position: absolute;
-    right: 170px;
+    right: 65px;
     bottom: -50px;
     width: 500px;
     height: 500px;
